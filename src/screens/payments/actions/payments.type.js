@@ -1,0 +1,8 @@
+export const LOADING = 'LOADING';
+export const STOP_LOADING = 'STOP_LOADING';
+export const LOAD_USER_CARDS = 'LOAD_USER_CARDS';
+export const CARD_ADDED = 'CARD_ADDED';
+export const CARD_ADD_ERROR = 'CARD_ADD_ERROR';
+export const PAYMENT_INITIATED = 'PAYMENT_INITIATED';
+export const CHANGE_DEFAULT_METHOD = 'CHANGE_DEFAULT_METHOD';
+export const UPDATE_CARDS = 'UPDATE_CARDS';

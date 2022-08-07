@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "FLOG App",
+    "slug": "Fast-Delivery",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/assets"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "backgroundColor": "#FFFFFF",
+      "bundleIdentifier": "com.flog.user",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBXXf0i8S04T-O_ev3enK2wIzRgS9Me2ao"
+      },
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app uses the photo library to upload neccesary documents.",
+        "NSLocationWhenInUseUsageDescription": "This app uses your loacation to ehance your experience when using the app."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.flog.user",
+      "versionCode": 2,
+      "userInterfaceStyle": "dark",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBXXf0i8S04T-O_ev3enK2wIzRgS9Me2ao"
+        }
+      }
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000000"
+    },
+    "notification": {
+      "icon": "./assets/notificationIcon.png",
+      "androidMode": "collapse",
+      "androidCollapsedTitle": "FLOG Notification"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

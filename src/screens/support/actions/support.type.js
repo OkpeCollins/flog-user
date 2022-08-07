@@ -1,0 +1,1 @@
+export const SUPPORT_DETAILS = 'SUPPORT_DETAILS';
